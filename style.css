@@ -1,0 +1,26 @@
+body {
+height: 100vh;
+margin:0 ;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+text-align:center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+    margin-top: 20%;
+}
+
+button:hover {
+background-color: #555;
+}
+
